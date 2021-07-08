@@ -1,0 +1,281 @@
+﻿*
+{
+    margin: 0 auto;
+    padding: 0;
+}
+
+body
+{
+    font-size: 11px;
+    font-family: Verdana;
+    color: #000;
+    background-color: #fff;
+    margin: 10px;
+}
+
+/* Styles for page layout
+-----------------------------------------------------------*/
+#container
+{
+    width: 400px;
+    height: auto;
+}
+
+#body-content
+{
+    float: left;
+    width: 400px;
+    border: 1px solid #CCCCCC;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px #CCCCCC;
+    background-color: #FFFFFF;
+}
+
+#form-header
+{
+    float: left;
+    width: 380px;
+    border-bottom: 1px solid #E0E0E0;
+    margin: 0px 10px 0px 10px;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    clear: left;
+}
+
+div#merchant-header
+{
+    float: left;
+    width: 380px;
+    height: 80px;
+    border-bottom: 1px solid #E0E0E0;
+    background-color: #fff;
+    margin: 10px 10px 0px 10px;
+    padding-bottom: 10px;
+}
+
+div#merchant-footer
+{
+    float: left;
+    width: 380px;
+    height: 80px;
+    background-color: #fff;
+    margin: 10px 10px 10px 10px;
+    margin-bottom: 10px;
+}
+
+#footer
+{
+    float: left;
+    margin-left: 160px;
+}
+
+#form-image-left
+{
+    width: 90px;
+    height: auto;
+    float: left;
+    margin: 10px 0px 0px 10px;
+}
+
+#form-image-right
+{
+    width: 120px;
+    height: 40px;
+    float: right;
+    margin: 10px 10px 0px 0px;
+}
+
+#order-summary
+{
+    float: left;
+    margin: 10px 0px 0px 10px;
+    width: 380px;
+    clear: left;
+}
+
+#order-summary-left
+{
+    float: left;
+    width: 220px;
+    clear: left;
+}
+
+#order-summary-right
+{
+    float: right;
+    width: 160px;
+    clear: right;
+    text-align: center;
+}
+
+#form-container
+{
+    float: left;
+    height: auto;
+    width: 100%;
+    clear: left;
+    margin-top: 10px;
+}
+
+#form-caption
+{
+    height: 50px;
+    line-height: 25px;
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-top: 1px solid #E0E0E0;
+}
+
+    #form-caption span
+    {
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    #form-caption p
+    {
+        font-size: 10px;
+        line-height: 16px;
+    }
+
+form-row
+{
+    float: left;
+    width: 100%;
+    height: auto;
+    margin-bottom: 12px;
+    line-height: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.form-row-gray
+{
+    float: left;
+    width: 100%;
+    height: auto;
+    margin-bottom: 2px;
+    line-height: 12px;
+    background-color: #F0F0F0;
+    border-top: 1px solid #E0E0E0;
+    border-bottom: 1px solid #E0E0E0;
+    padding: 5px 0px 5px 0px;
+    text-align: left;
+}
+
+    .form-row-gray p
+    {
+        margin-left: 10px;
+    }
+
+label
+{
+    float: left;
+    width: 200px;
+}
+
+/* Styles for credit card popup
+-----------------------------------------------------------*/
+#creditcard-popup
+{
+    display: none;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #fff;
+    border: 1px solid black;
+    width: 230px;
+    height: 290px;
+    position: absolute;
+}
+
+#creditcard-popup-close
+{
+    font-size: 12px;
+    font-weight: bold;
+    color: #000;
+    margin-right: 10px;
+    text-align: right;
+    display: block;
+    text-decoration: none;
+}
+
+/* Styles for Inputs
+------------------------------------------------------------*/
+input[type="submit"], input[type="button"]
+{
+    background-color: #FFFFFF;
+    border: 1px solid #888888;
+    border-radius: 5px 5px 5px 5px;
+    color: #444444;
+    font-family: "Helvetica Neue","Lucida Grande","Segoe UI",Arial,Helvetica,Verdana,sans-serif;
+    min-width: 100px;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 3px 5px;
+    width: auto;
+    cursor: pointer;
+}
+
+input[type="text"]
+{
+    padding: 2px 4px;
+    width: auto;
+    font-size: 12px;
+    color: #000;
+    border: 1px solid #888888;
+}
+
+select
+{
+    width: auto;
+    font-size: 12px;
+    color: #000;
+    border: 1px solid #888888;
+}
+
+#buttons-box
+{
+    float: left;
+    margin: 10px 0px 10px 0px;
+    width: 400px;
+    text-align: center;
+}
+
+/* Styles for visa tooltip
+------------------------------------------------------------*/
+
+#visa-tooltip-container {
+    display: none;
+    width: 282px;
+    height: 357px;
+    position: absolute;
+}
+
+#visa-tooltip-box {
+    text-align: justify;
+    vertical-align: middle;
+    background-color: #0057a0;
+    color: #fff;
+    font-size: 12px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    width: 260px;
+    height: 335px;
+    padding: 10px;
+}
+
+.visa-gold-text {
+    color: #fba61c;
+}
+
+#visa-tooltip-close {
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    margin-right: 10px;
+    text-align: right;
+    text-decoration: none;
+    display: block;
+    text-decoration: none;
+}
